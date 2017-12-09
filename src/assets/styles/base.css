@@ -1,0 +1,33 @@
+*{padding: 0;margin:0;}
+html, body{  width: 100%;  height: 100%;  background-color: #ffffff; color:#000000; overflow: hidden;  min-width: 1060px;  font-size: 14px;font-family: "\5FAE\8F6F\96C5\9ED1","helvetica neue",arial,sans-serif;}
+a{text-decoration: none;color:#ffffff;display: block}
+li{list-style: none}
+.left{float: left}
+.right{float: right}
+.hidden{display:none !important}
+
+.child-page-box{width: 100%;height: 100%;min-width: 940px;}
+/*子页面头部*/
+.child-page-title{position: relative;z-index: 10;height: 32px;line-height: 32px;padding: 0 62px; font-size: 12px; background: url("../images/common/child_title.png") no-repeat 36px center #eceff1;}
+.child-page-title a,.child-page-title span{display: block;float: left;color: #191919;}
+.child-page-title span{padding: 0 6px;font-weight: bolder;color: #97a9b3;}
+/*子页面标题*/
+.child-page-container{padding: 0 38px;overflow-y:auto;overflow-x:hidden ;height:100%;}
+.child-page-container .title-text{overflow: hidden;position: relative;left: 0;top: 0; z-index: 0;padding: 26px 0 26px 30px; font-weight: bolder; color: #455a64; font-size: 28px;  border-bottom: 1px solid #eceff1;}
+.child-page-container .title-text:before{    content: ""; position: absolute; left: 0; top: 32px;  z-index: 0;  width: 12px;  height: 28px;  background-color: #e46f82;}
+.child-page-container .title-text span{vertical-align: middle;float: left}
+.child-page-container .button{padding:0 20px;background: #40b2ee;border-radius: 5px;color:#ffffff;height: 32px;line-height: 32px;min-width: 60px;text-align: center;float: left;cursor: pointer}
+.info-area{padding: 30px  0;position: relative}
+.info-area-item{margin-bottom:30px}
+/*.child-page-container::-webkit-scrollbar{width:6px;margin-right:2px}*/
+/*.child-page-container::-webkit-scrollbar-track{border-radius:10px}*/
+/*.child-page-container::-webkit-scrollbar-track-piece{background-color:#263238;border-radius:10px}*/
+/*.child-page-container::-webkit-scrollbar-thumb{width:10px;border-radius:5px;background:#41575d}*/
+/*默认输入框*/
+.input-area{height:32px;margin:10px 0;position: relative}
+.input-area .input-describe{float: left;color:#000000;height: 32px;line-height: 32px;min-width: 100px;;margin-right:40px;font-weight: bold}
+.input-area .common-input{float: left;border:1px solid #cfd8dc;border-radius: 4px;outline: none;width: 238px;height: 30px;padding-left: 10px;}
+.input-area .common-input.false{border:1px solid red;}
+.input-area .false-text{float: left;color:red;height: 32px;line-height: 32px;margin-left: 10px;}
+/*默认显示框*/
+.input-area .show-text{float: left;border-radius: 4px;width: 240px;height: 32px;line-height:32px;padding-left: 10px;background: #eceff1}

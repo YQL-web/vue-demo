@@ -1,0 +1,58 @@
+/**
+ * Created by root on 2017/5/17.
+ */
+const MOUDLE_CONFIG = [
+  {
+    name:"系统管理",
+    className:"system",
+    children:[
+      {
+        name:'操作日志',
+        routerTo:'log'
+      },
+      {
+        name:'角色管理',
+        routerTo:'roleList'
+      }
+    ]
+  },
+  {
+    name:"会员管理",
+    className:"user-manage",
+    children:[
+      {
+        name:'会员信息',
+        routerTo:'userList',
+      }
+    ]
+  },
+  {
+    name:"应用管理",
+    className:"app-manage",
+    children:[
+      {
+        name:'应用信息管理',
+        routerTo:'appInfoList'
+      }
+    ]
+  },
+  {
+    name:"服务管理",
+    className:"services-manage",
+    children:[
+      {
+        name:'服务组信息管理',
+        routerTo:''
+      },
+      {
+        name:'服务路由管理',
+        routerTo:''
+      },
+      {
+        name:'服务参数配置',
+        routerTo:''
+      }
+    ]
+  }
+]
+module.exports = {MOUDLE_CONFIG}
